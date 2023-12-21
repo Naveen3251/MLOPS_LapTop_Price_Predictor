@@ -1,4 +1,7 @@
-Let's jump into the Python packages you need. Within the Python environment of your choice, run:
+# File Structure for the Zenml MLOPS of Project
+You can maintain this structure for your any zenml related MLOps project
+
+![mlops](https://github.com/Naveen3251/MLOPS_LapTop_Price_Predictor/assets/114800360/683401e2-779b-4947-b0fd-3e211d2667ef)
 
 # Pre-requisites
 
@@ -8,41 +11,65 @@ Get it from here: [https://www.python.org/downloads/]
 ### Basic Zenml commands
 
 #### Install zenml
-```pip install zenml```
+```
+pip install zenml
+```
 
 #### to Launch zenml server and dashboard locally
-```pip install "zenml[server]"```
+```
+pip install "zenml[server]"
+```
 
 #### to see the zenml Version:
-```zenml version```
+```
+zenml version
+```
 
 #### To initiate a new repository
-```zenml init```
+```
+zenml init
+```
 
 #### to run the dashboard locally:
-```zenml up```
+```
+zenml up
+```
 or in windows if not supported use below command
-```zenml up --blocking```
+```
+zenml up --blocking
+```
 
 #### to know the status of our zenml Pipelines
-```zenml show```
+```
+zenml show
+```
 
 ### Integration of MLflow with ZenML
 
 #### Integrating mlflow with ZenML
-```zenml integration install mlflow -y```
+```
+zenml integration install mlflow -y
+```
 
 #### Register the experiment tracker
 ###### syntax
-```zenml experiment-tracker register <mlflow_tracker_name> --flavor=mlflow```
+```
+zenml experiment-tracker register <mlflow_tracker_name> --flavor=mlflow
+```
 ###### Example
-```zenml experiment-tracker register mlflow_tracker_employee --flavor=mlflow```
+```
+zenml experiment-tracker register mlflow_tracker_employee --flavor=mlflow
+```
 
 #### Registering the model deployer
 ###### syntax
-```zenml model-deployer register <mlflow_deployername> --flavor=mlflow```
+```
+zenml model-deployer register <mlflow_deployername> --flavor=mlflow
+```
 ###### Example
-```zenml model-deployer register mlflow_employee --flavor=mlflow```
+```
+zenml model-deployer register mlflow_employee --flavor=mlflow
+```
 
 #### Registering the stack
 ###### syntax
