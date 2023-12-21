@@ -98,12 +98,10 @@ Integrating MLflow with ZenML enhances experiment robustness and management with
 
 #### Deployment
   ##### a). Continuous Deployment Pipeline
-
-      This pipeline will automate the model deployment process. Once a model passes evaluation criteria, it’s automatically deployed to a production environment. For example, it starts with data preprocessing,         data cleaning, training the data, model evaluation, etc.<br>
+   This pipeline will automate the model deployment process. Once a model passes evaluation criteria, it’s automatically deployed to a production environment. For example, it starts with data preprocessing,         data cleaning, training the data, model evaluation, etc.<br>
 
   ##### b). Inference Deployment Pipeline
-
-      The Inference Deployment Pipeline focuses on deploying machine learning models for real-time or batch inference. The Inference Deployment Pipeline specializes in deploying models for making predictions in        a production environment. For example, it sets up an API endpoint where users can send text. It ensures the model’s availability and scalability and monitors its real-time performance. These pipelines are        important for maintaining the efficiency and effectiveness of machine-learning systems.
+   The Inference Deployment Pipeline focuses on deploying machine learning models for real-time or batch inference. The Inference Deployment Pipeline specializes in deploying models for making predictions in        a production environment. For example, it sets up an API endpoint where users can send text. It ensures the model’s availability and scalability and monitors its real-time performance. These pipelines are        important for maintaining the efficiency and effectiveness of machine-learning systems.
 
 #### How do we debug that the server daemon is not running?
 This is a common error you will face in the project. Just run
