@@ -81,8 +81,10 @@ zenml stack register mlflow_stack_employee -a default -o default -d mlflow_emplo
 ZenML is an open-source MLOPS Framework that helps to build portable and production-ready pipelines. The ZenML Framework will help us do this project using MLOPS.
 
 #### Fundamental Concepts of MLOPS
-Steps: Steps are single units of tasks in a pipeline or workflow. Each step represents a specific action or operation that needs to be performed to develop a machine-learning workflow. For example, data cleaning, data preprocessing, training models, etc., are certain steps in developing a machine learning model.
-Pipelines: They connect multiple steps together to create a structured and automated process for machine learning tasks. for, e.g., the data processing pipeline, the model evaluation pipeline, and the model training pipeline.
+  **Steps:** 
+    Steps are single units of tasks in a pipeline or workflow. Each step represents a specific action or operation that needs to be performed to develop a machine-learning workflow. For example, data cleaning,       data preprocessing, training models, etc., are certain steps in developing a machine learning model.
+  **Pipelines:**
+    They connect multiple steps together to create a structured and automated process for machine learning tasks. for, e.g., the data processing pipeline, the model evaluation pipeline, and the model training        pipeline.
 
 #### What is an Experiment Tracker?
 An experiment tracker is a tool in machine learning used to record, monitor, and manage various experiments in the machine learning development process.
@@ -113,3 +115,11 @@ then
 zenml disconnect
 ```
 again run the pipeline. It will be resolved.
+
+### Reference
+### 1] MLOPS-Architecture design patterns
+Some of common design patterns in Mlops architectures
+https://neptune.ai/blog/ml-pipeline-architecture-design-patterns
+### 2] Mlflow
+Refer my Mlflow github for basic understanding of mlflow
+
