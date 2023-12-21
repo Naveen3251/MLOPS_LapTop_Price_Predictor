@@ -99,7 +99,7 @@ Integrating MLflow with ZenML enhances experiment robustness and management with
 #### Deployment
   ##### a). Continuous Deployment Pipeline
 
-      This pipeline will automate the model deployment process. Once a model passes evaluation criteria, it’s automatically deployed to a production environment. For example, it starts with data preprocessing,         data cleaning, training the data, model evaluation, etc.
+      This pipeline will automate the model deployment process. Once a model passes evaluation criteria, it’s automatically deployed to a production environment. For example, it starts with data preprocessing,         data cleaning, training the data, model evaluation, etc.<br>
 
   ##### b). Inference Deployment Pipeline
 
@@ -118,8 +118,8 @@ again run the pipeline. It will be resolved.
 
 ### Reference
 ### 1] MLOPS-Architecture design patterns
-Some of common design patterns in Mlops architectures
+Some of common design patterns in Mlops architectures<br>
 https://neptune.ai/blog/ml-pipeline-architecture-design-patterns
 ### 2] Mlflow
-Refer my Mlflow github for basic understanding of mlflow
-
+Refer my Mlflow github for basic understanding of mlflow<br>
+https://github.com/Naveen3251/mlflow
